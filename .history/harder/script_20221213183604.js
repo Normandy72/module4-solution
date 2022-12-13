@@ -40,10 +40,10 @@ Good Bye Jim
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
-    if (firstLetter === 'j') {
-      byeSpeaker.speak(names[i]);
+    if (/* fill in condition here */) {
+      // byeSpeaker.xxxx
     } else {
-      helloSpeaker.speak(names[i]);
+      // helloSpeaker.xxxx
     }
   }
 })();
